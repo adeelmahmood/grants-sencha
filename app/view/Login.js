@@ -3,8 +3,6 @@ Ext.define("grants.view.Login", {
 	xtype: 'login',
 	
 	config: {
-		url: '',
-		
 		items: [
 			{
 				docked: 'top',
@@ -19,8 +17,8 @@ Ext.define("grants.view.Login", {
 				items: [
 					{
 						xtype: 'textfield',
-						label: 'Enter Your LAN ID',
-						name: 'lanId'
+						label: 'LAN ID',
+						name: 'uid'
 					}
 				]
 			},

@@ -27,10 +27,11 @@ Ext.define("grants.view.Main", {
 						iconMask: true,
 						ui: 'plain'
 					},
-					{ xtype: 'spacer' },
+					{ xtype: 'spacer' },					
 					{
 						text: 'Sign Out',
-						id: 'signoutButton'
+						id: 'signoutButton',
+						ui: 'confirm'
 					}
 				]
 			},

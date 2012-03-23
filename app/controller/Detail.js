@@ -32,8 +32,7 @@ Ext.define('grants.controller.Detail', {
 	onInnerViewInitialized: function(view){
 		console.log('initializing inner view ' + view.getTitle());
 		var viewStore = view.getStore();
-		//no need to load if already loaded for same record
-		if(viewStore.isLoaded() && (grants.currentRecord == grants.lastRecord || !grants.lastRecord))	return;
+		if(viewStore.isLoading())	return true;
 		//initialize the store on first load of view
 		viewStore.load({
 			params: {

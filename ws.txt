@@ -1,0 +1,1760 @@
+<NotepadPlus>
+    <Project name="grants-sencha">
+        <Folder name="app">
+            <Folder name="controller">
+                <File name="app\controller\Detail.js" />
+                <File name="app\controller\Listing.js" />
+                <File name="app\controller\Login.js" />
+            </Folder>
+            <Folder name="model">
+                <File name="app\model\Entity.js" />
+                <File name="app\model\FP.js" />
+            </Folder>
+            <Folder name="profile" />
+            <Folder name="store">
+                <File name="app\store\Attachments.js" />
+                <File name="app\store\Budgets.js" />
+                <File name="app\store\FPs.js" />
+                <File name="app\store\History.js" />
+            </Folder>
+            <Folder name="view">
+                <Folder name="detail">
+                    <File name="app\view\detail\Attachments.js" />
+                    <File name="app\view\detail\Budgets.js" />
+                    <File name="app\view\detail\History.js" />
+                </Folder>
+                <Folder name="listing">
+                    <File name="app\view\listing\MyTasks.js" />
+                </Folder>
+                <File name="app\view\DetailPanel.js" />
+                <File name="app\view\ListingPanel.js" />
+                <File name="app\view\Login.js" />
+                <File name="app\view\Main.js" />
+                <File name="app\view\SearchBar.js" />
+                <File name="app\view\SortBar.js" />
+            </Folder>
+        </Folder>
+        <Folder name="resources">
+            <Folder name="css">
+                <File name="resources\css\app.css" />
+            </Folder>
+            <Folder name="icons">
+                <File name="resources\icons\icon-spot~ipad.png" />
+                <File name="resources\icons\Icon.png" />
+                <File name="resources\icons\Icon@2x.png" />
+                <File name="resources\icons\Icon~ipad.png" />
+                <File name="resources\icons\Icon~ipad@2x.png" />
+                <File name="resources\icons\iTunesArtwork.png" />
+            </Folder>
+            <Folder name="images" />
+            <Folder name="loading">
+                <File name="resources\loading\Default-LandscapeLeft~ipad.png" />
+                <File name="resources\loading\Default-LandscapeRight~ipad.png" />
+                <File name="resources\loading\Default-Landscape~ipad.png" />
+                <File name="resources\loading\Default-PortraitUpsideDown~ipad.png" />
+                <File name="resources\loading\Default-Portrait~ipad.png" />
+                <File name="resources\loading\Default.png" />
+                <File name="resources\loading\Default@2x.png" />
+                <File name="resources\loading\Default~ipad.png" />
+                <File name="resources\loading\Homescreen.jpg" />
+                <File name="resources\loading\Homescreen~ipad.jpg" />
+            </Folder>
+            <Folder name="sass">
+                <Folder name=".sass-cache">
+                    <Folder name="5106c2c19fb0148a9f88c68469d23c4f684946ce">
+                        <File name="resources\sass\.sass-cache\5106c2c19fb0148a9f88c68469d23c4f684946ce\_colors.scssc" />
+                        <File name="resources\sass\.sass-cache\5106c2c19fb0148a9f88c68469d23c4f684946ce\_typography.scssc" />
+                    </Folder>
+                    <Folder name="5f355cb473c78c1292fd932d47230b29423508b8">
+                        <File name="resources\sass\.sass-cache\5f355cb473c78c1292fd932d47230b29423508b8\_core.scssc" />
+                        <File name="resources\sass\.sass-cache\5f355cb473c78c1292fd932d47230b29423508b8\_layout.scssc" />
+                        <File name="resources\sass\.sass-cache\5f355cb473c78c1292fd932d47230b29423508b8\_reset.scssc" />
+                    </Folder>
+                    <Folder name="65258b468506797fa198661e5b29c1e42ada83f0">
+                        <File name="resources\sass\.sass-cache\65258b468506797fa198661e5b29c1e42ada83f0\_all.scssc" />
+                        <File name="resources\sass\.sass-cache\65258b468506797fa198661e5b29c1e42ada83f0\_core.scssc" />
+                        <File name="resources\sass\.sass-cache\65258b468506797fa198661e5b29c1e42ada83f0\_global.scssc" />
+                        <File name="resources\sass\.sass-cache\65258b468506797fa198661e5b29c1e42ada83f0\_mixins.scssc" />
+                        <File name="resources\sass\.sass-cache\65258b468506797fa198661e5b29c1e42ada83f0\_variables.scssc" />
+                        <File name="resources\sass\.sass-cache\65258b468506797fa198661e5b29c1e42ada83f0\_widgets.scssc" />
+                    </Folder>
+                    <Folder name="7e8bab1ffc37d82d2337c6d06cf13416e83b220d">
+                        <File name="resources\sass\.sass-cache\7e8bab1ffc37d82d2337c6d06cf13416e83b220d\_float.scssc" />
+                        <File name="resources\sass\.sass-cache\7e8bab1ffc37d82d2337c6d06cf13416e83b220d\_hacks.scssc" />
+                    </Folder>
+                    <Folder name="909006f53d666913c78c2b13cc677cc76c124a69">
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_buttons.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_carousel.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_form-sliders.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_form.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_img.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_indexbar.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_list.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_loading-spinner.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_map.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_media.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_msgbox.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_panel.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_picker.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_sheets.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_tabs.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_toolbar-forms.scssc" />
+                        <File name="resources\sass\.sass-cache\909006f53d666913c78c2b13cc677cc76c124a69\_toolbar.scssc" />
+                    </Folder>
+                    <Folder name="945cf7ac3e6734d2c1b881f11d001c024e44507e">
+                        <File name="resources\sass\.sass-cache\945cf7ac3e6734d2c1b881f11d001c024e44507e\_css3.scssc" />
+                        <File name="resources\sass\.sass-cache\945cf7ac3e6734d2c1b881f11d001c024e44507e\_support.scssc" />
+                    </Folder>
+                    <Folder name="9ff1c5b588f82ae167641ae0be7b6d5cca080812">
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_appearance.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_background-clip.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_background-origin.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_background-size.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_border-radius.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_box-shadow.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_box-sizing.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_box.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_columns.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_font-face.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_images.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_inline-block.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_opacity.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_shared.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_text-shadow.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_transform.scssc" />
+                        <File name="resources\sass\.sass-cache\9ff1c5b588f82ae167641ae0be7b6d5cca080812\_transition.scssc" />
+                    </Folder>
+                    <Folder name="b603e4335e1612d768fb0b7a1bc0581f10564efe">
+                        <File name="resources\sass\.sass-cache\b603e4335e1612d768fb0b7a1bc0581f10564efe\_link-colors.scssc" />
+                    </Folder>
+                    <Folder name="e76af6e6f912a952ce10e009dc292fba5f0b6db4">
+                        <File name="resources\sass\.sass-cache\e76af6e6f912a952ce10e009dc292fba5f0b6db4\app.scssc" />
+                    </Folder>
+                </Folder>
+                <File name="resources\sass\app.scss" />
+                <File name="resources\sass\config.rb" />
+            </Folder>
+        </Folder>
+        <Folder name="sdk">
+            <Folder name="command">
+                <Folder name="bin">
+                    <File name="sdk\command\bin\sencha" />
+                    <File name="sdk\command\bin\sencha.bat" />
+                </Folder>
+                <Folder name="src">
+                    <Folder name="log">
+                        <Folder name="formatter">
+                            <File name="sdk\command\src\log\formatter\Cli.js" />
+                        </Folder>
+                        <Folder name="writer">
+                            <File name="sdk\command\src\log\writer\Cli.js" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="module">
+                        <Folder name="generate">
+                            <Folder name="App">
+                                <Folder name="app">
+                                    <Folder name="view">
+                                        <File name="sdk\command\src\module\generate\App\app\view\Main.js.tpl" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="resources">
+                                    <Folder name="icons">
+                                        <File name="sdk\command\src\module\generate\App\resources\icons\icon-spot~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\icons\Icon.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\icons\Icon@2x.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\icons\Icon~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\icons\Icon~ipad@2x.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\icons\iTunesArtwork.png" />
+                                    </Folder>
+                                    <Folder name="loading">
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default-LandscapeLeft~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default-LandscapeRight~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default-Landscape~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default-PortraitUpsideDown~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default-Portrait~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default@2x.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Default~ipad.png" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Homescreen.jpg" />
+                                        <File name="sdk\command\src\module\generate\App\resources\loading\Homescreen~ipad.jpg" />
+                                    </Folder>
+                                    <Folder name="sass">
+                                        <File name="sdk\command\src\module\generate\App\resources\sass\app.scss.tpl" />
+                                        <File name="sdk\command\src\module\generate\App\resources\sass\config.rb.tpl" />
+                                    </Folder>
+                                </Folder>
+                                <File name="sdk\command\src\module\generate\App\.senchasdk.tpl" />
+                                <File name="sdk\command\src\module\generate\App\app.js.tpl" />
+                                <File name="sdk\command\src\module\generate\App\app.json.tpl" />
+                                <File name="sdk\command\src\module\generate\App\index.html.tpl" />
+                                <File name="sdk\command\src\module\generate\App\packager.json.tpl" />
+                            </Folder>
+                            <Folder name="Controller">
+                                <File name="sdk\command\src\module\generate\Controller\controller.js.tpl" />
+                            </Folder>
+                            <Folder name="Form">
+                                <File name="sdk\command\src\module\generate\Form\form.js.tpl" />
+                            </Folder>
+                            <Folder name="Model">
+                                <File name="sdk\command\src\module\generate\Model\model.js.tpl" />
+                            </Folder>
+                            <Folder name="Profile">
+                                <File name="sdk\command\src\module\generate\Profile\profile.js.tpl" />
+                            </Folder>
+                            <File name="sdk\command\src\module\generate\App.js" />
+                            <File name="sdk\command\src\module\generate\Controller.js" />
+                            <File name="sdk\command\src\module\generate\Form.js" />
+                            <File name="sdk\command\src\module\generate\Generator.js" />
+                            <File name="sdk\command\src\module\generate\Model.js" />
+                            <File name="sdk\command\src\module\generate\Profile.js" />
+                        </Folder>
+                        <File name="sdk\command\src\module\Abstract.js" />
+                        <File name="sdk\command\src\module\Application.js" />
+                        <File name="sdk\command\src\module\FileSystem.js" />
+                        <File name="sdk\command\src\module\Generate.js" />
+                        <File name="sdk\command\src\module\Manifest.js" />
+                        <File name="sdk\command\src\module\Package.js" />
+                        <File name="sdk\command\src\module\Project.js" />
+                        <File name="sdk\command\src\module\Test.js" />
+                    </Folder>
+                    <Folder name="preprocessor">
+                        <Folder name="statement">
+                            <File name="sdk\command\src\preprocessor\statement\Debug.js" />
+                            <File name="sdk\command\src\preprocessor\statement\Deprecated.js" />
+                            <File name="sdk\command\src\preprocessor\statement\Else.js" />
+                            <File name="sdk\command\src\preprocessor\statement\Elseif.js" />
+                            <File name="sdk\command\src\preprocessor\statement\Feature.js" />
+                            <File name="sdk\command\src\preprocessor\statement\If.js" />
+                        </Folder>
+                        <File name="sdk\command\src\preprocessor\LineStack.js" />
+                        <File name="sdk\command\src\preprocessor\Statement.js" />
+                    </Folder>
+                    <File name="sdk\command\src\Cli.js" />
+                    <File name="sdk\command\src\Preprocessor.js" />
+                </Folder>
+                <Folder name="templates">
+                    <File name="sdk\command\templates\action.tpl" />
+                    <File name="sdk\command\templates\actions.tpl" />
+                    <File name="sdk\command\templates\cache.manifest.tpl" />
+                    <File name="sdk\command\templates\modules.tpl" />
+                </Folder>
+                <Folder name="test">
+                    <Folder name="unit">
+                        <Folder name="specs">
+                            <Folder name="preprocessor">
+                                <Folder name="statement">
+                                    <File name="sdk\command\test\unit\specs\preprocessor\statement\IfSpec.js" />
+                                </Folder>
+                            </Folder>
+                            <File name="sdk\command\test\unit\specs\PreprocessorSpec.js" />
+                            <File name="sdk\command\test\unit\specs\SampleSpec.js" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="vendor">
+                    <Folder name="closurecompiler">
+                        <File name="sdk\command\vendor\closurecompiler\compiler.jar" />
+                        <File name="sdk\command\vendor\closurecompiler\COPYING" />
+                        <File name="sdk\command\vendor\closurecompiler\README" />
+                    </Folder>
+                    <Folder name="nodejs">
+                        <Folder name="node_modules">
+                            <Folder name=".bin">
+                                <File name="sdk\command\vendor\nodejs\node_modules\.bin\jasmine-node" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\.bin\uglifyjs" />
+                            </Folder>
+                            <Folder name="findit">
+                                <Folder name="examples">
+                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\examples\callback.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\examples\emitter.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\examples\sync.js" />
+                                </Folder>
+                                <Folder name="node_modules">
+                                    <Folder name="seq">
+                                        <Folder name="examples">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\examples\join.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\examples\parseq.coffee" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\examples\parseq.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\examples\stat_all.coffee" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\examples\stat_all.js" />
+                                        </Folder>
+                                        <Folder name="node_modules">
+                                            <Folder name="chainsaw">
+                                                <Folder name="examples">
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\examples\add_do.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\examples\prompt.js" />
+                                                </Folder>
+                                                <Folder name="node_modules">
+                                                    <Folder name="traverse">
+                                                        <Folder name="examples">
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\examples\json.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\examples\leaves.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\examples\negative.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\examples\stringify.js" />
+                                                        </Folder>
+                                                        <Folder name="test">
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\circular.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\date.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\equal.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\instance.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\interface.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\json.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\leaves.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\mutability.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\negative.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\obj.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\stop.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\stringify.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\test\super_deep.js" />
+                                                        </Folder>
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\.npmignore" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\index.js" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\LICENSE" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\package.json" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\node_modules\traverse\README.markdown" />
+                                                    </Folder>
+                                                </Folder>
+                                                <Folder name="test">
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\test\chainsaw.js" />
+                                                </Folder>
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\.npmignore" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\index.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\package.json" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\chainsaw\README.markdown" />
+                                            </Folder>
+                                            <Folder name="hashish">
+                                                <Folder name="examples">
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\examples\chain.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\examples\map.js" />
+                                                </Folder>
+                                                <Folder name="node_modules">
+                                                    <Folder name="traverse">
+                                                        <Folder name="examples">
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\examples\json.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\examples\leaves.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\examples\negative.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\examples\scrub.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\examples\stringify.js" />
+                                                        </Folder>
+                                                        <Folder name="test">
+                                                            <Folder name="lib">
+                                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\lib\deep_equal.js" />
+                                                            </Folder>
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\circular.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\date.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\equal.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\has.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\instance.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\interface.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\json.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\keys.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\leaves.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\mutability.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\negative.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\obj.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\siblings.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\stop.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\stringify.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\subexpr.js" />
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\test\super_deep.js" />
+                                                        </Folder>
+                                                        <Folder name="testling">
+                                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\testling\leaves.js" />
+                                                        </Folder>
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\.npmignore" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\index.js" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\LICENSE" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\package.json" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\node_modules\traverse\README.markdown" />
+                                                    </Folder>
+                                                </Folder>
+                                                <Folder name="test">
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\test\hash.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\test\property.js" />
+                                                </Folder>
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\index.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\package.json" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\node_modules\hashish\README.markdown" />
+                                            </Folder>
+                                        </Folder>
+                                        <Folder name="test">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\test\readdir.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\test\seq.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\test\seq_.js" />
+                                        </Folder>
+                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\.npmignore" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\index.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\package.json" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\findit\node_modules\seq\README.markdown" />
+                                    </Folder>
+                                </Folder>
+                                <File name="sdk\command\vendor\nodejs\node_modules\findit\index.js" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\findit\package.json" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\findit\README.markdown" />
+                            </Folder>
+                            <Folder name="jasmine-node">
+                                <Folder name="bin">
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\bin\jasmine-node" />
+                                </Folder>
+                                <Folder name="lib">
+                                    <Folder name="jasmine-node">
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\async-callback.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\autotest.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\cli.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\index.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\jasmine-2.0.0.rc1.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\reporter.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\requirejs-runner.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\requirejs-spec-loader.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\requirejs-wrapper-template.js" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\lib\jasmine-node\spec-collection.js" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="node_modules">
+                                    <Folder name=".bin">
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\.bin\cake" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\.bin\coffee" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\.bin\r.js" />
+                                    </Folder>
+                                    <Folder name="coffee-script">
+                                        <Folder name="bin">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\bin\cake" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\bin\coffee" />
+                                        </Folder>
+                                        <Folder name="extras">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\extras\jsl.conf" />
+                                        </Folder>
+                                        <Folder name="lib">
+                                            <Folder name="coffee-script">
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\browser.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\cake.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\coffee-script.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\command.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\grammar.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\helpers.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\index.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\lexer.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\nodes.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\optparse.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\parser.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\repl.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\rewriter.js" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\lib\coffee-script\scope.js" />
+                                            </Folder>
+                                        </Folder>
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\.npmignore" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\LICENSE" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\package.json" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\Rakefile" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\coffee-script\README" />
+                                    </Folder>
+                                    <Folder name="jasmine-reporters">
+                                        <Folder name="ext">
+                                            <Folder name="phantomjs">
+                                                <Folder name="examples">
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\arguments.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\arguments.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\colorwheel.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\colorwheel.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\countdown.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\countdown.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\cycle_multiple_urls.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\direction.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\direction.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\extract-text.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\extract-text.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\fibo.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\fibo.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\follow.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\follow.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\hello.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\hello.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\ipgeocode.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\ipgeocode.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\loadspeed.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\loadspeed.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\movies.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\movies.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\pizza.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\pizza.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\rasterize.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\rasterize.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\run-jasmine.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\run-qunit.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\seasonfood.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\seasonfood.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\technews.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\technews.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\tweets.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\tweets.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\useragent.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\useragent.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\version.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\version.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\waitfor.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\waitfor.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\weather.coffee" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\examples\weather.js" />
+                                                </Folder>
+                                                <Folder name="python">
+                                                    <Folder name="plugins">
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\plugins\__init__.py" />
+                                                    </Folder>
+                                                    <Folder name="resources">
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\resources\coffee-script.js" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\resources\pyphantomjs-icon.ico" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\resources\pyphantomjs-icon.png" />
+                                                    </Folder>
+                                                    <Folder name="tools">
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\tools\build_resources.sh" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\tools\setup.py" />
+                                                    </Folder>
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\csconverter.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\INSTALL" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\LICENSE" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\networkaccessmanager.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\phantom.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\plugincontroller.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\pyphantomjs.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\README" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\resources.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\resources.qrc" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\utils.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\python\webpage.py" />
+                                                </Folder>
+                                                <Folder name="src">
+                                                    <Folder name="gif">
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\config.h" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\egif_lib.c" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gif.pri" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gifalloc.c" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gifwriter.cpp" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gifwriter.h" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gif_err.c" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gif_hash.c" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gif_hash.h" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gif_lib.h" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\gif_lib_private.h" />
+                                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\gif\quantize.c" />
+                                                    </Folder>
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\coffee-script.js" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\consts.h" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\csconverter.cpp" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\csconverter.h" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\main.cpp" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\networkaccessmanager.cpp" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\networkaccessmanager.h" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantom.cpp" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantom.h" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs-icon.png" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs.pro" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs.qrc" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs_os2.ico" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs_os2.rc" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs_win.ico" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\phantomjs_win.rc" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\usage.txt" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\utils.cpp" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\utils.h" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\webpage.cpp" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\src\webpage.h" />
+                                                </Folder>
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\.npmignore" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\ChangeLog" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\LICENSE.BSD" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\phantomjs.pro" />
+                                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\phantomjs\README.md" />
+                                            </Folder>
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\env.rhino.1.2.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\jasmine-html.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\jasmine.css" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\jasmine.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\jline.jar" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\ext\js.jar" />
+                                        </Folder>
+                                        <Folder name="src">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\src\jasmine.console_reporter.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\src\jasmine.junit_reporter.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\src\load_reporters.js" />
+                                        </Folder>
+                                        <Folder name="test">
+                                            <Folder name="pyphantomjs-plugins">
+                                                <Folder name="saveToFile">
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\pyphantomjs-plugins\saveToFile\saveToFile.py" />
+                                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\pyphantomjs-plugins\saveToFile\__init__.py" />
+                                                </Folder>
+                                            </Folder>
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\console_reporter.html" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\envjs.bootstrap.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\envjs.runner.sh" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\JUnitXmlReporterSpec.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\junit_xml_reporter.html" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\phantomjs-testrunner.js" />
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\test\phantomjs.runner.sh" />
+                                        </Folder>
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\.gitmodules" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\.npmignore" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\LICENSE" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\package.json" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\jasmine-reporters\README.markdown" />
+                                    </Folder>
+                                    <Folder name="requirejs">
+                                        <Folder name="bin">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\requirejs\bin\r.js" />
+                                        </Folder>
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\requirejs\.npmignore" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\requirejs\package.json" />
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\node_modules\requirejs\require.js" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="scripts">
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\scripts\specs" />
+                                </Folder>
+                                <Folder name="spec">
+                                    <Folder name="nested">
+                                        <Folder name="uber-nested">
+                                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\nested\uber-nested\UberNestedSpec.js" />
+                                        </Folder>
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\nested\NestedSpec.js" />
+                                    </Folder>
+                                    <Folder name="nested.js">
+                                        <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\nested.js\NestedSpec.js" />
+                                    </Folder>
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\async-callback_spec.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\AsyncSpec.coffee" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\CoffeeSpec.coffee" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\helper_spec.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\reporter_spec.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\SampleSpecs.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\sample_helper.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\spec\TestSpec.js" />
+                                </Folder>
+                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\.npmignore" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\LICENSE" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\package.json" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\README.md" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node\specs.sh" />
+                            </Folder>
+                            <Folder name="node-uuid">
+                                <File name="sdk\command\vendor\nodejs\node_modules\node-uuid\.npmignore" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\node-uuid\LICENSE.md" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\node-uuid\package.json" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\node-uuid\README.md" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\node-uuid\uuid.js" />
+                            </Folder>
+                            <Folder name="uglify-js">
+                                <Folder name="bin">
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\bin\uglifyjs" />
+                                </Folder>
+                                <Folder name="lib">
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\lib\object-ast.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\lib\parse-js.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\lib\process.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\lib\squeeze-more.js" />
+                                </Folder>
+                                <Folder name="tmp">
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\269.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\app.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\embed-tokens.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\goto.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\goto2.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\hoist.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\instrument.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\instrument2.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\liftvars.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\test.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\uglify-hangs.js" />
+                                    <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\tmp\uglify-hangs2.js" />
+                                </Folder>
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\.npmignore" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\docstyle.css" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\package.json" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\package.json~" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\README.html" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\README.org" />
+                                <File name="sdk\command\vendor\nodejs\node_modules\uglify-js\uglify-js.js" />
+                            </Folder>
+                            <File name="sdk\command\vendor\nodejs\node_modules\jasmine-node.js" />
+                        </Folder>
+                        <Folder name="osx">
+                            <File name="sdk\command\vendor\nodejs\osx\node" />
+                        </Folder>
+                        <Folder name="win">
+                            <File name="sdk\command\vendor\nodejs\win\node.exe" />
+                        </Folder>
+                        <File name="sdk\command\vendor\nodejs\LICENSE" />
+                    </Folder>
+                    <Folder name="phantomjs">
+                        <Folder name="osx">
+                            <File name="sdk\command\vendor\phantomjs\osx\index.html" />
+                            <File name="sdk\command\vendor\phantomjs\osx\Info.plist" />
+                            <File name="sdk\command\vendor\phantomjs\osx\phantomjs" />
+                            <File name="sdk\command\vendor\phantomjs\osx\xhr.js" />
+                        </Folder>
+                        <Folder name="win">
+                            <Folder name="codecs">
+                                <File name="sdk\command\vendor\phantomjs\win\codecs\qcncodecs4.dll" />
+                                <File name="sdk\command\vendor\phantomjs\win\codecs\qjpcodecs4.dll" />
+                                <File name="sdk\command\vendor\phantomjs\win\codecs\qkrcodecs4.dll" />
+                                <File name="sdk\command\vendor\phantomjs\win\codecs\qtwcodecs4.dll" />
+                            </Folder>
+                            <Folder name="examples">
+                                <File name="sdk\command\vendor\phantomjs\win\examples\arguments.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\arguments.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\colorwheel.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\colorwheel.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\countdown.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\countdown.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\detectsniff.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\detectsniff.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\direction.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\direction.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\echoToFile.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\echoToFile.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\features.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\fibo.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\fibo.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\follow.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\follow.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\hello.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\hello.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\imagebin.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\imagebin.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\injectme.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\injectme.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\ipgeocode.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\ipgeocode.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\loadspeed.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\loadspeed.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\modernizr.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\movies.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\movies.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\netlog.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\netlog.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\netsniff.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\netsniff.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\outputEncoding.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\outputEncoding.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\phantomwebintro.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\phantomwebintro.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\pizza.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\pizza.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\post.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\post.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\rasterize.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\rasterize.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\render_multi_url.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\render_multi_url.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\run-jasmine.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\run-jasmine.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\run-qunit.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\run-qunit.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\scandir.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\scandir.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\seasonfood.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\seasonfood.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\simpleserver.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\simpleserver.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\sleepsort.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\sleepsort.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\technews.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\technews.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\tweets.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\tweets.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\unrandomize.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\unrandomize.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\useragent.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\useragent.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\version.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\version.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\waitfor.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\waitfor.js" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\weather.coffee" />
+                                <File name="sdk\command\vendor\phantomjs\win\examples\weather.js" />
+                            </Folder>
+                            <Folder name="imageformats">
+                                <File name="sdk\command\vendor\phantomjs\win\imageformats\qgif4.dll" />
+                                <File name="sdk\command\vendor\phantomjs\win\imageformats\qjpeg4.dll" />
+                            </Folder>
+                            <File name="sdk\command\vendor\phantomjs\win\ChangeLog" />
+                            <File name="sdk\command\vendor\phantomjs\win\libeay32.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\libgcc_s_dw2-1.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\libssl32.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\LICENSE.BSD" />
+                            <File name="sdk\command\vendor\phantomjs\win\mingwm10.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\phantomjs.exe" />
+                            <File name="sdk\command\vendor\phantomjs\win\phonon4.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\QtCore4.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\QtGui4.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\QtNetwork4.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\QtWebKit4.dll" />
+                            <File name="sdk\command\vendor\phantomjs\win\README.md" />
+                            <File name="sdk\command\vendor\phantomjs\win\ssleay32.dll" />
+                        </Folder>
+                        <File name="sdk\command\vendor\phantomjs\dependencies.js" />
+                        <File name="sdk\command\vendor\phantomjs\LICENSE.BSD" />
+                    </Folder>
+                    <Folder name="vcdiff">
+                        <Folder name="osx">
+                            <File name="sdk\command\vendor\vcdiff\osx\vcdiff" />
+                        </Folder>
+                        <Folder name="win">
+                            <File name="sdk\command\vendor\vcdiff\win\vcdiff.exe" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="yuicompressor">
+                        <File name="sdk\command\vendor\yuicompressor\LICENSE.TXT" />
+                        <File name="sdk\command\vendor\yuicompressor\yuicompressor.jar" />
+                    </Folder>
+                </Folder>
+                <File name="sdk\command\sencha" />
+                <File name="sdk\command\sencha.bat" />
+                <File name="sdk\command\sencha.js" />
+                <File name="sdk\command\senchadebug" />
+            </Folder>
+            <Folder name="microloader">
+                <File name="sdk\microloader\development.js" />
+                <File name="sdk\microloader\production.js" />
+                <File name="sdk\microloader\testing.js" />
+            </Folder>
+            <Folder name="resources">
+                <Folder name="css">
+                    <File name="sdk\resources\css\android.css" />
+                    <File name="sdk\resources\css\apple.css" />
+                    <File name="sdk\resources\css\bb6.css" />
+                    <File name="sdk\resources\css\sencha-touch.css" />
+                    <File name="sdk\resources\css\touch-charts.css" />
+                </Folder>
+                <Folder name="css-debug">
+                    <File name="sdk\resources\css-debug\android.css" />
+                    <File name="sdk\resources\css-debug\apple.css" />
+                    <File name="sdk\resources\css-debug\bb6.css" />
+                    <File name="sdk\resources\css-debug\sencha-touch.css" />
+                </Folder>
+                <Folder name="images">
+                    <File name="sdk\resources\images\icon1.png" />
+                    <File name="sdk\resources\images\icon2.png" />
+                    <File name="sdk\resources\images\icon3.png" />
+                    <File name="sdk\resources\images\icon4.png" />
+                    <File name="sdk\resources\images\welcome.png" />
+                </Folder>
+                <Folder name="sass">
+                    <File name="sdk\resources\sass\android.scss" />
+                    <File name="sdk\resources\sass\apple.scss" />
+                    <File name="sdk\resources\sass\bb6.scss" />
+                    <File name="sdk\resources\sass\config-debug.rb" />
+                    <File name="sdk\resources\sass\config.rb" />
+                    <File name="sdk\resources\sass\sencha-touch.scss" />
+                </Folder>
+                <Folder name="themes">
+                    <Folder name="images">
+                        <Folder name="default">
+                            <Folder name="pictos">
+                                <File name="sdk\resources\themes\images\default\pictos\action.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\add.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\add1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\address_book.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\add_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\arrow_down.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\arrow_left.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\arrow_right.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\arrow_up.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\at.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\atom.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\attachment.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\attachment2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\attachment3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\attachment_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\backspace.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\battery_full.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\battery_low.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\battery_power.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\blank.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bolt.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bolt_side.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bookmark1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bookmark2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bookmarks.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bookmark_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\briefcase1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\briefcase2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\brightness1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\brightness2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\broadcast.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bug.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bulb.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bullseye1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\bullseye2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\calendar.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\calendar2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\calendar_add.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\card1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\card2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chart1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chart2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chart3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\chat_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\check1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\check2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\check_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\check_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\check_dotted.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\circle.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\circle2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\clash.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cloud.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cloud_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cloud_black_upload1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cloud_black_upload2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cloud_bolt.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cloud_download.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\code1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\code2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\code3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compass1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compass2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compass3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compose.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compose1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compose2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compose3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\compose_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\contract.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\cube.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\data.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\delete.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\delete1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\delete_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\delete_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\docs1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\docs2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\docs_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\docs_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_black_landscape.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_compose1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_compose2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_delete.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_down.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_drawer.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_list.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_new.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_send.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\doc_up.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\download.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\download1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\download2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\download_screen.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\eject.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\empty1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\empty2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\equalizer1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\equalizer2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\event_complete.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\expand.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\favorites.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\favorites1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\favorites_circle.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\fforward.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\find.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\flag.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\flickr2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_add.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_black_open.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_delete.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_delete2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_lock.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\folder_open2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\font.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\forbidden.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\forward_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\globe1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\globe2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\globe_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\headphones.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\heart.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\heart_circle.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\help.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\help_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\home.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\home2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\hot.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\inbox1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\inbox2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\inbox3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\infinite.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\infinite2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\info.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\info2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\info_plain.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\info_plain2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\json.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\lab.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\layout.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\link1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\link2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\link_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\list.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\locate.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\locate1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\locate2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\locate3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\locate4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\lock_closed.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\lock_open.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\look.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\loop.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\loop2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\loop_circle.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\magic.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mail.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mail1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mail2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mail3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mail4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mail5.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\maps.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mic.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\minus1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\minus2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\minus_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\minus_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\monitor1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\monitor2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\monitor3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\monitor4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\more.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\mouse.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\move.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\music1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\music2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\nodes1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\nodes2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\note1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\note2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\note3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\note_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\nuclear.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\organize.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\outbox.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\pause.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\phone1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\phone2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\phone_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\phone_ring1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\phone_ring2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photo1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photo2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photo3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photos1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photos2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photos4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photo_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\photo_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\piechart.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\play1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\play2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\play_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\play_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\podcast.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\power socket.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\power_on.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\print.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\print2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\quote1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\quote2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\quote_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\quote_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\quote_black3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\refresh.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\refresh1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\refresh2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\refresh3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\refresh5.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\reply.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\replytoall.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\resize.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\resize_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\rewind.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\right.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\right2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\rss.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\rss2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\rss_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\rss_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\rss_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\screens.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\search.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\search1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\search2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\search_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\server.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\servers.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings10.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings11.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings5.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings6.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings7.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings8.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings9.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\settings_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\share.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\shield1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\shield2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\shop1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\shop2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\shuffle.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_backforth.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_cross.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_leftright.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_leftright2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_split.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_switch.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sign_uturn.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\spaces1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\spaces2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\speedometer1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\speedometer2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\speedometer_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\speedometer_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\star.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\stop.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\stop1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\stop2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\sync.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tabbed_book.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tag.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tags.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tag_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\team.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\team1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\time.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\time_repeat.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\trash.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\trash2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\trash_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tree.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tv.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\tweak.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\twitter1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\twitter2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\up1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\up2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\upload2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\up_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_add.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_business.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_fave.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_list.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_list2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_remote1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_remove2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\user_send.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\video.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\video_black1.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\video_black2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\volume.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\volume_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\volume_down.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\volume_mute.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\volume_up.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\warming_dotted.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\warning_black.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\wifi.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\wifi2.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\wifi3.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\wifi4.png" />
+                                <File name="sdk\resources\themes\images\default\pictos\window.png" />
+                            </Folder>
+                            <File name="sdk\resources\themes\images\default\check.png" />
+                            <File name="sdk\resources\themes\images\default\clear_icon.png" />
+                            <File name="sdk\resources\themes\images\default\disclosure.png" />
+                            <File name="sdk\resources\themes\images\default\disclosure2.png" />
+                            <File name="sdk\resources\themes\images\default\dotgrid.png" />
+                            <File name="sdk\resources\themes\images\default\loading.gif" />
+                            <File name="sdk\resources\themes\images\default\pullarrow.png" />
+                            <File name="sdk\resources\themes\images\default\select_mask.png" />
+                            <File name="sdk\resources\themes\images\default\tip.png" />
+                            <File name="sdk\resources\themes\images\default\tip_horizontal.png" />
+                            <File name="sdk\resources\themes\images\default\tip_right.png" />
+                            <File name="sdk\resources\themes\images\default\togglebg.png" />
+                            <File name="sdk\resources\themes\images\default\togglemask.png" />
+                            <File name="sdk\resources\themes\images\default\togglethumb.png" />
+                            <File name="sdk\resources\themes\images\default\togglethumbbg.png" />
+                            <File name="sdk\resources\themes\images\default\togglethumbmask.png" />
+                            <File name="sdk\resources\themes\images\default\trackmask_outer.png" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="lib">
+                        <File name="sdk\resources\themes\lib\theme_images.rb" />
+                    </Folder>
+                    <Folder name="stylesheets">
+                        <Folder name="sencha-touch">
+                            <Folder name="default">
+                                <Folder name="core">
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\core\_core.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\core\_layout.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\core\_reset.scss" />
+                                </Folder>
+                                <Folder name="widgets">
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_buttons.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_carousel.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_form-sliders-basic.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_form-sliders.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_form.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_img.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_indexbar.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_list.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_loading-spinner.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_map.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_media.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_msgbox.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_panel.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_picker.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_sheets.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_tabs.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_toolbar-forms.scss" />
+                                    <File name="sdk\resources\themes\stylesheets\sencha-touch\default\widgets\_toolbar.scss" />
+                                </Folder>
+                                <File name="sdk\resources\themes\stylesheets\sencha-touch\default\_all.scss" />
+                                <File name="sdk\resources\themes\stylesheets\sencha-touch\default\_core.scss" />
+                                <File name="sdk\resources\themes\stylesheets\sencha-touch\default\_global.scss" />
+                                <File name="sdk\resources\themes\stylesheets\sencha-touch\default\_mixins.scss" />
+                                <File name="sdk\resources\themes\stylesheets\sencha-touch\default\_variables.scss" />
+                                <File name="sdk\resources\themes\stylesheets\sencha-touch\default\_widgets.scss" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <Folder name="templates">
+                        <Folder name="project">
+                            <File name="sdk\resources\themes\templates\project\manifest.rb" />
+                            <File name="sdk\resources\themes\templates\project\sencha-touch.scss" />
+                        </Folder>
+                    </Folder>
+                    <File name="sdk\resources\themes\compass_init.rb" />
+                </Folder>
+            </Folder>
+            <Folder name="src">
+                <Folder name="app">
+                    <File name="sdk\src\app\Action.js" />
+                    <File name="sdk\src\app\Application.js" />
+                    <File name="sdk\src\app\Controller.js" />
+                    <File name="sdk\src\app\History.js" />
+                    <File name="sdk\src\app\Profile.js" />
+                    <File name="sdk\src\app\Route.js" />
+                    <File name="sdk\src\app\Router.js" />
+                </Folder>
+                <Folder name="behavior">
+                    <File name="sdk\src\behavior\Behavior.js" />
+                    <File name="sdk\src\behavior\Draggable.js" />
+                    <File name="sdk\src\behavior\Droppable.js" />
+                    <File name="sdk\src\behavior\Scrollable.js" />
+                    <File name="sdk\src\behavior\Sortable.js" />
+                    <File name="sdk\src\behavior\Translatable.js" />
+                </Folder>
+                <Folder name="carousel">
+                    <File name="sdk\src\carousel\Carousel.js" />
+                    <File name="sdk\src\carousel\Indicator.js" />
+                    <File name="sdk\src\carousel\Infinite.js" />
+                    <File name="sdk\src\carousel\Item.js" />
+                </Folder>
+                <Folder name="core">
+                    <Folder name="class">
+                        <File name="sdk\src\core\class\Base.js" />
+                        <File name="sdk\src\core\class\Class.js" />
+                        <File name="sdk\src\core\class\ClassManager.js" />
+                        <File name="sdk\src\core\class\Loader.js" />
+                    </Folder>
+                    <Folder name="lang">
+                        <File name="sdk\src\core\lang\Array.js" />
+                        <File name="sdk\src\core\lang\Date.js" />
+                        <File name="sdk\src\core\lang\Error.js" />
+                        <File name="sdk\src\core\lang\Function.js" />
+                        <File name="sdk\src\core\lang\JSON.js" />
+                        <File name="sdk\src\core\lang\Number.js" />
+                        <File name="sdk\src\core\lang\Object.js" />
+                        <File name="sdk\src\core\lang\String.js" />
+                    </Folder>
+                    <Folder name="version">
+                        <File name="sdk\src\core\version\Version.js" />
+                    </Folder>
+                    <File name="sdk\src\core\EventManager.js" />
+                    <File name="sdk\src\core\Ext-more.js" />
+                    <File name="sdk\src\core\Ext.js" />
+                </Folder>
+                <Folder name="data">
+                    <Folder name="association">
+                        <File name="sdk\src\data\association\Association.js" />
+                        <File name="sdk\src\data\association\BelongsTo.js" />
+                        <File name="sdk\src\data\association\HasMany.js" />
+                        <File name="sdk\src\data\association\HasOne.js" />
+                    </Folder>
+                    <Folder name="identifier">
+                        <File name="sdk\src\data\identifier\Sequential.js" />
+                        <File name="sdk\src\data\identifier\Simple.js" />
+                        <File name="sdk\src\data\identifier\Uuid.js" />
+                    </Folder>
+                    <Folder name="proxy">
+                        <File name="sdk\src\data\proxy\Ajax.js" />
+                        <File name="sdk\src\data\proxy\Client.js" />
+                        <File name="sdk\src\data\proxy\Direct.js" />
+                        <File name="sdk\src\data\proxy\JsonP.js" />
+                        <File name="sdk\src\data\proxy\LocalStorage.js" />
+                        <File name="sdk\src\data\proxy\Memory.js" />
+                        <File name="sdk\src\data\proxy\Proxy.js" />
+                        <File name="sdk\src\data\proxy\Rest.js" />
+                        <File name="sdk\src\data\proxy\Server.js" />
+                        <File name="sdk\src\data\proxy\SessionStorage.js" />
+                        <File name="sdk\src\data\proxy\WebStorage.js" />
+                    </Folder>
+                    <Folder name="reader">
+                        <File name="sdk\src\data\reader\Array.js" />
+                        <File name="sdk\src\data\reader\Json.js" />
+                        <File name="sdk\src\data\reader\Reader.js" />
+                        <File name="sdk\src\data\reader\Xml.js" />
+                    </Folder>
+                    <Folder name="writer">
+                        <File name="sdk\src\data\writer\Json.js" />
+                        <File name="sdk\src\data\writer\Writer.js" />
+                        <File name="sdk\src\data\writer\Xml.js" />
+                    </Folder>
+                    <File name="sdk\src\data\ArrayStore.js" />
+                    <File name="sdk\src\data\Batch.js" />
+                    <File name="sdk\src\data\Connection.js" />
+                    <File name="sdk\src\data\DirectStore.js" />
+                    <File name="sdk\src\data\Error.js" />
+                    <File name="sdk\src\data\Errors.js" />
+                    <File name="sdk\src\data\Field.js" />
+                    <File name="sdk\src\data\JsonP.js" />
+                    <File name="sdk\src\data\JsonStore.js" />
+                    <File name="sdk\src\data\Model.js" />
+                    <File name="sdk\src\data\ModelManager.js" />
+                    <File name="sdk\src\data\NodeInterface.js" />
+                    <File name="sdk\src\data\NodeStore.js" />
+                    <File name="sdk\src\data\Operation.js" />
+                    <File name="sdk\src\data\Request.js" />
+                    <File name="sdk\src\data\ResultSet.js" />
+                    <File name="sdk\src\data\SortTypes.js" />
+                    <File name="sdk\src\data\Store.js" />
+                    <File name="sdk\src\data\StoreManager.js" />
+                    <File name="sdk\src\data\TreeStore.js" />
+                    <File name="sdk\src\data\Types.js" />
+                    <File name="sdk\src\data\Validations.js" />
+                </Folder>
+                <Folder name="dataview">
+                    <Folder name="component">
+                        <File name="sdk\src\dataview\component\Container.js" />
+                        <File name="sdk\src\dataview\component\DataItem.js" />
+                    </Folder>
+                    <Folder name="element">
+                        <File name="sdk\src\dataview\element\Container.js" />
+                        <File name="sdk\src\dataview\element\List.js" />
+                    </Folder>
+                    <File name="sdk\src\dataview\DataView.js" />
+                    <File name="sdk\src\dataview\IndexBar.js" />
+                    <File name="sdk\src\dataview\List.js" />
+                    <File name="sdk\src\dataview\ListItemHeader.js" />
+                    <File name="sdk\src\dataview\NestedList.js" />
+                </Folder>
+                <Folder name="device">
+                    <Folder name="camera">
+                        <File name="sdk\src\device\camera\Abstract.js" />
+                        <File name="sdk\src\device\camera\PhoneGap.js" />
+                        <File name="sdk\src\device\camera\Sencha.js" />
+                        <File name="sdk\src\device\camera\Simulator.js" />
+                    </Folder>
+                    <Folder name="communicator">
+                        <File name="sdk\src\device\communicator\Android.js" />
+                        <File name="sdk\src\device\communicator\Default.js" />
+                    </Folder>
+                    <Folder name="connection">
+                        <File name="sdk\src\device\connection\Abstract.js" />
+                        <File name="sdk\src\device\connection\PhoneGap.js" />
+                        <File name="sdk\src\device\connection\Sencha.js" />
+                        <File name="sdk\src\device\connection\Simulator.js" />
+                    </Folder>
+                    <Folder name="device">
+                        <File name="sdk\src\device\device\Abstract.js" />
+                        <File name="sdk\src\device\device\PhoneGap.js" />
+                        <File name="sdk\src\device\device\Sencha.js" />
+                        <File name="sdk\src\device\device\Simulator.js" />
+                    </Folder>
+                    <Folder name="geolocation">
+                        <File name="sdk\src\device\geolocation\Abstract.js" />
+                        <File name="sdk\src\device\geolocation\Sencha.js" />
+                        <File name="sdk\src\device\geolocation\Simulator.js" />
+                    </Folder>
+                    <Folder name="notification">
+                        <File name="sdk\src\device\notification\Abstract.js" />
+                        <File name="sdk\src\device\notification\PhoneGap.js" />
+                        <File name="sdk\src\device\notification\Sencha.js" />
+                        <File name="sdk\src\device\notification\Simulator.js" />
+                    </Folder>
+                    <Folder name="orientation">
+                        <File name="sdk\src\device\orientation\Abstract.js" />
+                        <File name="sdk\src\device\orientation\HTML5.js" />
+                        <File name="sdk\src\device\orientation\Sencha.js" />
+                    </Folder>
+                    <File name="sdk\src\device\Camera.js" />
+                    <File name="sdk\src\device\Communicator.js" />
+                    <File name="sdk\src\device\Connection.js" />
+                    <File name="sdk\src\device\Device.js" />
+                    <File name="sdk\src\device\Geolocation.js" />
+                    <File name="sdk\src\device\Notification.js" />
+                    <File name="sdk\src\device\Orientation.js" />
+                </Folder>
+                <Folder name="direct">
+                    <File name="sdk\src\direct\Event.js" />
+                    <File name="sdk\src\direct\ExceptionEvent.js" />
+                    <File name="sdk\src\direct\JsonProvider.js" />
+                    <File name="sdk\src\direct\Manager.js" />
+                    <File name="sdk\src\direct\PollingProvider.js" />
+                    <File name="sdk\src\direct\Provider.js" />
+                    <File name="sdk\src\direct\RemotingEvent.js" />
+                    <File name="sdk\src\direct\RemotingMethod.js" />
+                    <File name="sdk\src\direct\RemotingProvider.js" />
+                    <File name="sdk\src\direct\Transaction.js" />
+                </Folder>
+                <Folder name="dom">
+                    <File name="sdk\src\dom\CompositeElement.js" />
+                    <File name="sdk\src\dom\CompositeElementLite.js" />
+                    <File name="sdk\src\dom\Element.alignment.js" />
+                    <File name="sdk\src\dom\Element.insertion.js" />
+                    <File name="sdk\src\dom\Element.js" />
+                    <File name="sdk\src\dom\Element.position.js" />
+                    <File name="sdk\src\dom\Element.static.js" />
+                    <File name="sdk\src\dom\Element.style.js" />
+                    <File name="sdk\src\dom\Element.traversal.js" />
+                    <File name="sdk\src\dom\Helper.js" />
+                    <File name="sdk\src\dom\Query.js" />
+                </Folder>
+                <Folder name="env">
+                    <File name="sdk\src\env\Browser.js" />
+                    <File name="sdk\src\env\Feature.js" />
+                    <File name="sdk\src\env\OS.js" />
+                </Folder>
+                <Folder name="event">
+                    <Folder name="publisher">
+                        <File name="sdk\src\event\publisher\ComponentDelegation.js" />
+                        <File name="sdk\src\event\publisher\ComponentPaint.js" />
+                        <File name="sdk\src\event\publisher\ComponentSize.js" />
+                        <File name="sdk\src\event\publisher\Dom.js" />
+                        <File name="sdk\src\event\publisher\Publisher.js" />
+                        <File name="sdk\src\event\publisher\TouchGesture.js" />
+                    </Folder>
+                    <Folder name="recognizer">
+                        <File name="sdk\src\event\recognizer\DoubleTap.js" />
+                        <File name="sdk\src\event\recognizer\Drag.js" />
+                        <File name="sdk\src\event\recognizer\HorizontalSwipe.js" />
+                        <File name="sdk\src\event\recognizer\LongPress.js" />
+                        <File name="sdk\src\event\recognizer\MultiTouch.js" />
+                        <File name="sdk\src\event\recognizer\Pinch.js" />
+                        <File name="sdk\src\event\recognizer\Recognizer.js" />
+                        <File name="sdk\src\event\recognizer\Rotate.js" />
+                        <File name="sdk\src\event\recognizer\SingleTouch.js" />
+                        <File name="sdk\src\event\recognizer\Swipe.js" />
+                        <File name="sdk\src\event\recognizer\Tap.js" />
+                        <File name="sdk\src\event\recognizer\Touch.js" />
+                        <File name="sdk\src\event\recognizer\VerticalSwipe.js" />
+                    </Folder>
+                    <File name="sdk\src\event\Controller.js" />
+                    <File name="sdk\src\event\Dispatcher.js" />
+                    <File name="sdk\src\event\Dom.js" />
+                    <File name="sdk\src\event\Event.js" />
+                    <File name="sdk\src\event\ListenerStack.js" />
+                    <File name="sdk\src\event\Touch.js" />
+                </Folder>
+                <Folder name="field">
+                    <File name="sdk\src\field\Checkbox.js" />
+                    <File name="sdk\src\field\DatePicker.js" />
+                    <File name="sdk\src\field\Email.js" />
+                    <File name="sdk\src\field\Field.js" />
+                    <File name="sdk\src\field\Hidden.js" />
+                    <File name="sdk\src\field\Input.js" />
+                    <File name="sdk\src\field\Number.js" />
+                    <File name="sdk\src\field\Password.js" />
+                    <File name="sdk\src\field\Radio.js" />
+                    <File name="sdk\src\field\Search.js" />
+                    <File name="sdk\src\field\Select.js" />
+                    <File name="sdk\src\field\Slider.js" />
+                    <File name="sdk\src\field\Spinner.js" />
+                    <File name="sdk\src\field\Text.js" />
+                    <File name="sdk\src\field\TextArea.js" />
+                    <File name="sdk\src\field\TextAreaInput.js" />
+                    <File name="sdk\src\field\Toggle.js" />
+                    <File name="sdk\src\field\Url.js" />
+                </Folder>
+                <Folder name="form">
+                    <File name="sdk\src\form\FieldSet.js" />
+                    <File name="sdk\src\form\Panel.js" />
+                </Folder>
+                <Folder name="fx">
+                    <Folder name="animation">
+                        <File name="sdk\src\fx\animation\Abstract.js" />
+                        <File name="sdk\src\fx\animation\Cube.js" />
+                        <File name="sdk\src\fx\animation\Fade.js" />
+                        <File name="sdk\src\fx\animation\FadeOut.js" />
+                        <File name="sdk\src\fx\animation\Flip.js" />
+                        <File name="sdk\src\fx\animation\Pop.js" />
+                        <File name="sdk\src\fx\animation\PopOut.js" />
+                        <File name="sdk\src\fx\animation\Slide.js" />
+                        <File name="sdk\src\fx\animation\SlideOut.js" />
+                        <File name="sdk\src\fx\animation\Wipe.js" />
+                        <File name="sdk\src\fx\animation\WipeOut.js" />
+                    </Folder>
+                    <Folder name="easing">
+                        <File name="sdk\src\fx\easing\Abstract.js" />
+                        <File name="sdk\src\fx\easing\Bounce.js" />
+                        <File name="sdk\src\fx\easing\BoundMomentum.js" />
+                        <File name="sdk\src\fx\easing\EaseIn.js" />
+                        <File name="sdk\src\fx\easing\EaseOut.js" />
+                        <File name="sdk\src\fx\easing\Linear.js" />
+                        <File name="sdk\src\fx\easing\Momentum.js" />
+                    </Folder>
+                    <Folder name="layout">
+                        <Folder name="card">
+                            <File name="sdk\src\fx\layout\card\Abstract.js" />
+                            <File name="sdk\src\fx\layout\card\Cover.js" />
+                            <File name="sdk\src\fx\layout\card\Cube.js" />
+                            <File name="sdk\src\fx\layout\card\Fade.js" />
+                            <File name="sdk\src\fx\layout\card\Flip.js" />
+                            <File name="sdk\src\fx\layout\card\Pop.js" />
+                            <File name="sdk\src\fx\layout\card\Reveal.js" />
+                            <File name="sdk\src\fx\layout\card\Scroll.js" />
+                            <File name="sdk\src\fx\layout\card\ScrollCover.js" />
+                            <File name="sdk\src\fx\layout\card\ScrollReveal.js" />
+                            <File name="sdk\src\fx\layout\card\Slide.js" />
+                            <File name="sdk\src\fx\layout\card\Style.js" />
+                        </Folder>
+                        <File name="sdk\src\fx\layout\Card.js" />
+                    </Folder>
+                    <Folder name="runner">
+                        <File name="sdk\src\fx\runner\Css.js" />
+                        <File name="sdk\src\fx\runner\CssAnimation.js" />
+                        <File name="sdk\src\fx\runner\CssTransition.js" />
+                    </Folder>
+                    <File name="sdk\src\fx\Animation.js" />
+                    <File name="sdk\src\fx\Easing.js" />
+                    <File name="sdk\src\fx\Runner.js" />
+                    <File name="sdk\src\fx\State.js" />
+                </Folder>
+                <Folder name="layout">
+                    <File name="sdk\src\layout\AbstractBox.js" />
+                    <File name="sdk\src\layout\Card.js" />
+                    <File name="sdk\src\layout\Default.js" />
+                    <File name="sdk\src\layout\Fit.js" />
+                    <File name="sdk\src\layout\HBox.js" />
+                    <File name="sdk\src\layout\Layout.js" />
+                    <File name="sdk\src\layout\VBox.js" />
+                </Folder>
+                <Folder name="locale">
+                    <File name="sdk\src\locale\ext-lang-en.js" />
+                </Folder>
+                <Folder name="log">
+                    <Folder name="filter">
+                        <File name="sdk\src\log\filter\Filter.js" />
+                        <File name="sdk\src\log\filter\Priority.js" />
+                    </Folder>
+                    <Folder name="formatter">
+                        <File name="sdk\src\log\formatter\Default.js" />
+                        <File name="sdk\src\log\formatter\Formatter.js" />
+                        <File name="sdk\src\log\formatter\Identity.js" />
+                    </Folder>
+                    <Folder name="writer">
+                        <File name="sdk\src\log\writer\Console.js" />
+                        <File name="sdk\src\log\writer\DocumentTitle.js" />
+                        <File name="sdk\src\log\writer\Remote.js" />
+                        <File name="sdk\src\log\writer\Writer.js" />
+                    </Folder>
+                    <File name="sdk\src\log\Base.js" />
+                    <File name="sdk\src\log\Logger.js" />
+                </Folder>
+                <Folder name="mixin">
+                    <File name="sdk\src\mixin\Filterable.js" />
+                    <File name="sdk\src\mixin\Identifiable.js" />
+                    <File name="sdk\src\mixin\Mixin.js" />
+                    <File name="sdk\src\mixin\Observable.js" />
+                    <File name="sdk\src\mixin\Selectable.js" />
+                    <File name="sdk\src\mixin\Sortable.js" />
+                    <File name="sdk\src\mixin\Traversable.js" />
+                </Folder>
+                <Folder name="navigation">
+                    <File name="sdk\src\navigation\Bar.js" />
+                    <File name="sdk\src\navigation\View.js" />
+                </Folder>
+                <Folder name="picker">
+                    <File name="sdk\src\picker\Date.js" />
+                    <File name="sdk\src\picker\Picker.js" />
+                    <File name="sdk\src\picker\Slot.js" />
+                </Folder>
+                <Folder name="platform">
+                    <Folder name="src">
+                        <Folder name="data">
+                            <Folder name="proxies">
+                                <File name="sdk\src\platform\src\data\proxies\SyncProxy.js" />
+                                <File name="sdk\src\platform\src\data\proxies\SyncStorageProxy.js" />
+                            </Folder>
+                            <Folder name="stores">
+                                <File name="sdk\src\platform\src\data\stores\SyncStore.js" />
+                            </Folder>
+                            <Folder name="sync">
+                                <File name="sdk\src\platform\src\data\sync\Array.js" />
+                                <File name="sdk\src\platform\src\data\sync\Clock.js" />
+                                <File name="sdk\src\platform\src\data\sync\Config.js" />
+                                <File name="sdk\src\platform\src\data\sync\CS.js" />
+                                <File name="sdk\src\platform\src\data\sync\CSGenerator.js" />
+                                <File name="sdk\src\platform\src\data\sync\CSV.js" />
+                                <File name="sdk\src\platform\src\data\sync\DatabaseDefinition.js" />
+                                <File name="sdk\src\platform\src\data\sync\Protocol.js" />
+                                <File name="sdk\src\platform\src\data\sync\SyncModel.js" />
+                                <File name="sdk\src\platform\src\data\sync\Updates.js" />
+                                <File name="sdk\src\platform\src\data\sync\Utilities.js" />
+                                <File name="sdk\src\platform\src\data\sync\UUIDGenerator.js" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="plugin">
+                    <File name="sdk\src\plugin\ListPaging.js" />
+                    <File name="sdk\src\plugin\PullRefresh.js" />
+                </Folder>
+                <Folder name="scroll">
+                    <Folder name="indicator">
+                        <File name="sdk\src\scroll\indicator\Abstract.js" />
+                        <File name="sdk\src\scroll\indicator\CssTransform.js" />
+                        <File name="sdk\src\scroll\indicator\Default.js" />
+                        <File name="sdk\src\scroll\indicator\ScrollPosition.js" />
+                    </Folder>
+                    <Folder name="scroller">
+                        <File name="sdk\src\scroll\scroller\Infinite.js" />
+                    </Folder>
+                    <File name="sdk\src\scroll\Indicator.js" />
+                    <File name="sdk\src\scroll\Scroller.js" />
+                    <File name="sdk\src\scroll\View.js" />
+                </Folder>
+                <Folder name="slider">
+                    <File name="sdk\src\slider\Slider.js" />
+                    <File name="sdk\src\slider\Thumb.js" />
+                    <File name="sdk\src\slider\Toggle.js" />
+                </Folder>
+                <Folder name="tab">
+                    <File name="sdk\src\tab\Bar.js" />
+                    <File name="sdk\src\tab\Panel.js" />
+                    <File name="sdk\src\tab\Tab.js" />
+                </Folder>
+                <Folder name="table">
+                    <File name="sdk\src\table\Cell.js" />
+                    <File name="sdk\src\table\Row.js" />
+                    <File name="sdk\src\table\Table.js" />
+                </Folder>
+                <Folder name="util">
+                    <Folder name="translatable">
+                        <File name="sdk\src\util\translatable\Abstract.js" />
+                        <File name="sdk\src\util\translatable\CssTransform.js" />
+                        <File name="sdk\src\util\translatable\ScrollPosition.js" />
+                    </Folder>
+                    <File name="sdk\src\util\AbstractMixedCollection.js" />
+                    <File name="sdk\src\util\Collection.js" />
+                    <File name="sdk\src\util\DelayedTask.js" />
+                    <File name="sdk\src\util\Draggable.js" />
+                    <File name="sdk\src\util\Droppable.js" />
+                    <File name="sdk\src\util\Filter.js" />
+                    <File name="sdk\src\util\Format.js" />
+                    <File name="sdk\src\util\Geolocation.js" />
+                    <File name="sdk\src\util\Grouper.js" />
+                    <File name="sdk\src\util\HashMap.js" />
+                    <File name="sdk\src\util\Inflector.js" />
+                    <File name="sdk\src\util\JSON.js" />
+                    <File name="sdk\src\util\LineSegment.js" />
+                    <File name="sdk\src\util\MixedCollection.js" />
+                    <File name="sdk\src\util\Point.js" />
+                    <File name="sdk\src\util\Region.js" />
+                    <File name="sdk\src\util\SizeMonitor.js" />
+                    <File name="sdk\src\util\Sortable.js" />
+                    <File name="sdk\src\util\Sorter.js" />
+                    <File name="sdk\src\util\TapRepeater.js" />
+                    <File name="sdk\src\util\Translatable.js" />
+                </Folder>
+                <Folder name="ux">
+                    <Folder name="auth">
+                        <File name="sdk\src\ux\auth\Session.js" />
+                    </Folder>
+                    <Folder name="auth2">
+                        <Folder name="model">
+                            <File name="sdk\src\ux\auth2\model\Session.js" />
+                        </Folder>
+                        <File name="sdk\src\ux\auth2\Auth.js" />
+                    </Folder>
+                    <File name="sdk\src\ux\Faker.js" />
+                </Folder>
+                <Folder name="viewport">
+                    <File name="sdk\src\viewport\Android.js" />
+                    <File name="sdk\src\viewport\Default.js" />
+                    <File name="sdk\src\viewport\Ios.js" />
+                    <File name="sdk\src\viewport\Viewport.js" />
+                </Folder>
+                <File name="sdk\src\AbstractComponent.js" />
+                <File name="sdk\src\AbstractManager.js" />
+                <File name="sdk\src\ActionSheet.js" />
+                <File name="sdk\src\Ajax.js" />
+                <File name="sdk\src\Anim.js" />
+                <File name="sdk\src\Audio.js" />
+                <File name="sdk\src\Button.js" />
+                <File name="sdk\src\Component.js" />
+                <File name="sdk\src\ComponentManager.js" />
+                <File name="sdk\src\ComponentQuery.js" />
+                <File name="sdk\src\Container.js" />
+                <File name="sdk\src\DateExtras.js" />
+                <File name="sdk\src\Decorator.js" />
+                <File name="sdk\src\Evented.js" />
+                <File name="sdk\src\Img.js" />
+                <File name="sdk\src\ItemCollection.js" />
+                <File name="sdk\src\Label.js" />
+                <File name="sdk\src\LoadMask.js" />
+                <File name="sdk\src\Map.js" />
+                <File name="sdk\src\Mask.js" />
+                <File name="sdk\src\Media.js" />
+                <File name="sdk\src\MessageBox.js" />
+                <File name="sdk\src\Panel.js" />
+                <File name="sdk\src\SegmentedButton.js" />
+                <File name="sdk\src\Sheet.js" />
+                <File name="sdk\src\Sortable.js" />
+                <File name="sdk\src\Spacer.js" />
+                <File name="sdk\src\Template.js" />
+                <File name="sdk\src\Title.js" />
+                <File name="sdk\src\TitleBar.js" />
+                <File name="sdk\src\Toolbar.js" />
+                <File name="sdk\src\Video.js" />
+                <File name="sdk\src\XTemplate.js" />
+                <File name="sdk\src\XTemplateCompiler.js" />
+                <File name="sdk\src\XTemplateParser.js" />
+            </Folder>
+            <File name="sdk\sencha-touch-all.js" />
+            <File name="sdk\sencha-touch.js" />
+            <File name="sdk\version.txt" />
+        </Folder>
+        <File name=".senchasdk" />
+        <File name="app.js" />
+        <File name="app.json" />
+        <File name="index.html" />
+        <File name="packager.json" />
+        <File name="README" />
+    </Project>
+</NotepadPlus>

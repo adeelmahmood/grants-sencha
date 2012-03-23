@@ -100,6 +100,8 @@ Ext.define('grants.controller.Listing', {
 	
 	//signout
 	onSignoutButton: function(signoutButton){
+		//clear logged in user
+		grants.loggedIn = null;
 		//show login panel
 		Ext.Viewport.animateActiveItem(this.getLoginPanel(), {
 			type: 'fade'
@@ -109,5 +111,7 @@ Ext.define('grants.controller.Listing', {
     //called when the Application is launched, remove if not needed
     launch: function(app) {
         console.log('Listing controller launched');
+		grants.currentRecord = null;
+		grants.lastRecord = null;
     }
 });

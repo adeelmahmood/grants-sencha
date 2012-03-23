@@ -36,7 +36,7 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add({
-			xtype: 'login'
+			xtype: 'main'
 		});
     },
 
