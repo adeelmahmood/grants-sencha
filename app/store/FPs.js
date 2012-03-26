@@ -14,7 +14,7 @@ Ext.define('grants.store.FPs', {
 		
 		proxy: {
 			type: 'jsonp',
-			url: 'http://roeccm002a/solr/MIRISDev/select',
+			url: 'http://roeccm002a.mayo.edu/solr/MIRISDev/select',
 			callbackKey: 'json.wrf',
 			limitParam: 'rows',
 			pageParam: 'start',

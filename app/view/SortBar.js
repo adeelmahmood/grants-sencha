@@ -7,10 +7,10 @@ Ext.define("grants.view.SortBar", {
 		id: 'sortContainer',
 		
 		items: [
-			{
+			/*{
 				text: 'Sort By',
 				ui: 'forward'
-			},
+			},*/
 			{
 				xtype: 'segmentedbutton',
 				id: 'sortBy',

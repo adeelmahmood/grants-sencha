@@ -57,7 +57,7 @@ Ext.define('grants.controller.Detail', {
 	onDetailBack: function(){	
 		//set last viewied item
 		grants.lastRecord = grants.currentRecord;
-	
+		//show main panel
 		Ext.Viewport.animateActiveItem(this.getMain(), {
 			type: 'slide',
 			direction: 'right'

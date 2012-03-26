@@ -25,7 +25,7 @@ Ext.define("grants.view.DetailPanel", {
 						align: 'left'
 					},
 					{
-						text: 'Go to Website',
+						text: 'Website',
 						ui: 'light',
 						xtype: 'button',
 						id: 'detailWebsiteButton',
@@ -98,7 +98,7 @@ Ext.define("grants.view.DetailPanel", {
 	//pass data to child components
 	updateData: function(){
 		console.log('detail panel data updated');
-		var childComps = this.query('component[tpl], dataview');
+		var childComps = this.query('component[tpl]');
 		for(var i=0; i<childComps.length; i++){
 			childComps[i].setRecord(this.getRecord());			
 		}

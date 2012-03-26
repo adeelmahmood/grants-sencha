@@ -24,7 +24,7 @@ Ext.define('grants.controller.Login', {
 		
 			//send form data in a json request
 			Ext.data.JsonP.request({
-				url: 'http://roegnc801a.mayo.edu/MIRISDev/PublicCustomLayouts/Service/Login',
+				url: 'http://roegnc801a.mayo.edu/MIRISDev/PublicCustomLayouts/Service/Login?fetchSession=1',
 				callbackKey: 'callbackKey',
 				params: formValues,
 				success: function(result){
@@ -38,14 +38,15 @@ Ext.define('grants.controller.Login', {
 						});
 					}
 					else{
-						Ext.Msg.alert('invalid login info');
-						//disable the login button
-						loginButton.enable();
+						Ext.Msg.alert('invalid login info');						
 					}
+					//enable the login button
+					loginButton.enable();
 				},
 				failure: function(){
+					console.log(arguments);
 					Ext.Msg.alert('error');
-					//disable the login button
+					//enable the login button
 					loginButton.enable();
 				}
 			});
