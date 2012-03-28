@@ -1,5 +1,5 @@
 Ext.define("grants.view.DetailPanel", {
-	extend: 'Ext.Container',
+	extend: 'Ext.TabPanel',
 	xtype: 'detailpanel',
 	
 	requires: [
@@ -8,8 +8,9 @@ Ext.define("grants.view.DetailPanel", {
 		'grants.view.detail.Attachments'
 	],
 	
-	config: {
-		layout: 'vbox',
+	config: {	
+		ui: 'light',
+		tabBarPosition: 'bottom',
 		
 		items: [
 			{
@@ -32,10 +33,13 @@ Ext.define("grants.view.DetailPanel", {
 						align: 'right'
 					}
 				]
-			}
-			,
+			},
 			{
+				title: 'Info',
 				xtype: 'component',
+				style: 'background:#fafafa',
+				scrollable: true,
+				iconCls: 'info',
 				tpl: [
 					'<tpl for=".">',
 						'<div class="detail">',
@@ -76,22 +80,9 @@ Ext.define("grants.view.DetailPanel", {
 					'</tpl>'
 				]
 			},
-			{
-				xtype: 'tabpanel',
-				flex: 1,
-				ui: 'light',
-				
-				defaults: {
-					styleHtmlContent: true,
-					padding: 0
-				},
-		
-				items: [
-					{	xtype: 'budgets'	},
-					{	xtype: 'history'	},
-					{	xtype: 'attachments'	}
-				]
-			}
+			{	xtype: 'budgets'	},
+			{	xtype: 'history'	},
+			{	xtype: 'attachments'	}			
 		]
 	},
 	

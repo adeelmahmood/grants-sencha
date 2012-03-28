@@ -1,6 +1,8 @@
 Ext.define('grants.controller.Login', {
     extend: 'Ext.app.Controller',
     
+	requires: ['Ext.data.proxy.JsonP'],
+	
     config: {
         refs: {
 			main: 'main',
@@ -32,8 +34,10 @@ Ext.define('grants.controller.Login', {
 					if(result && result.loggedIn){
 						//store logged in information
 						grants.loggedIn = result;
+						
+						if(!this.mainPanel)	this.mainPanel = Ext.widget('main');
 						//show listing panel
-						Ext.Viewport.animateActiveItem(Ext.widget('main'), {
+						Ext.Viewport.animateActiveItem(this.mainPanel, {
 							type: 'fade'
 						});
 					}

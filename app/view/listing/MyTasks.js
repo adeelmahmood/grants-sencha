@@ -4,7 +4,8 @@ Ext.define("grants.view.listing.MyTasks", {
 	
 	requires: [
 		'grants.view.SearchBar',
-		'grants.view.SortBar'
+		'grants.view.SortBar',
+		'Ext.plugin.ListPaging'
 	],
 	
 	config: {
@@ -20,7 +21,7 @@ Ext.define("grants.view.listing.MyTasks", {
 		//hide the top search and sort bar initially
 		scrollable: {
 			initialOffset: {
-				y: 73
+				y: 75
 			}
 		},
 		
@@ -52,7 +53,17 @@ Ext.define("grants.view.listing.MyTasks", {
 	initialize: function(){
 		this.callParent();
 		console.log('mytasks list init');
+		var uname = grants.loggedIn ? grants.loggedIn.name : '';
 		//initialize the store on first load of view
-		this.getStore().load();
+		this.getStore().load({
+			params: {
+				q: uname&&0 ? '(' + [
+					'preSpec:"' + uname + '"',
+					'postSpec:"' + uname + '"',
+					'pi:"' + uname + '"',
+					'proxies:"' + uname + '"'
+				].join(' OR ') + ')' : '*:*'
+			}
+		});
 	}
 });

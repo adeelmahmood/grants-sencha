@@ -35,9 +35,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add({
-			xtype: 'main'
-		});
+        Ext.Viewport.add({ xtype: 'main' });
     },
 
     onUpdated: function() {

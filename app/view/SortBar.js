@@ -2,6 +2,10 @@ Ext.define("grants.view.SortBar", {
 	extend: 'Ext.Toolbar',
 	xtype: 'sortbar',
 	
+	requires:	[
+		'Ext.SegmentedButton'
+	],
+	
 	config: {
 		cls: 'sort',
 		id: 'sortContainer',

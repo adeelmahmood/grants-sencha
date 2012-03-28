@@ -16,33 +16,48 @@ Ext.define('grants.controller.Detail', {
 			'#detailWebsiteButton': {
 				tap: 'onGoToWebsite'
 			},
+			detailPanel: {
+				show: 'onDetailViewInitialized'
+			}/*,
 			budgetsPanel: {
-				show: 'onInnerViewInitialized'
-			},
-			historyPanel: {
-				show: 'onInnerViewInitialized'
-			},
-			attachmentsPanel: {
-				show: 'onInnerViewInitialized'
-			}
+				tapBudgetReport: 'onTapBudgetReport'
+			}	*/		
         }
-    },	
+    },
 	
-	//inner view(s) initilized
-	onInnerViewInitialized: function(view){
-		console.log('initializing inner view ' + view.getTitle());
-		var viewStore = view.getStore();
-		if(viewStore.isLoading())	return true;
-		//initialize the store on first load of view
-		viewStore.load({
-			params: {
-				id: grants.currentRecord.get('id')
-			},
-			callback: function(){
-				console.log('store for view ' + view.getTitle() + ' loaded');
-				view.setStore(viewStore);
+	onTapBudgetReport: function(rec, el){
+		console.log('onTapBudgetReport');
+		console.log(el);
+		console.log(rec);
+		var url = 'http://javadev.mayo.edu/pride/app/generate-report?directDownload=1&projectId=' + rec.get('displayName') + '&projectOid=' + rec.get('parent') + '&projectType=_Budget&projectStore=MIRISDev&requestor=' + grants.loggedIn.uid + '&requestorRole=adminU&sessionToken=MIRISDev:' + grants.loggedIn.sessionToken + '&fileFormat=pdf&reportType=blocked&watermark=draft&reportPaper=letter&landscape=on';
+		console.log(url);
+	},
+	
+	//once the detail panel is intialized just refresh all three inner stores
+	onDetailViewInitialized: function(view){
+		console.log('detail panel initialized');
+		//if revisting same record then no need to refresh the stores
+		if(view.getRecord() == grants.currentRecord)	return;
+		
+		//get all child list components
+		var childLists = view.query('dataview');
+		for(var i=0; i<childLists.length; i++){
+			var childList = childLists[i], childStore = childList.getStore();
+			//load the store
+			if(!childStore.isLoading()){
+				console.log('loading store for ' + childList.getTitle());
+				childStore.load({
+					params: {
+						//get current record id to stores
+						id: grants.currentRecord.get('id')
+					},
+					callback: function(){
+						console.log('store loaded for view ');
+						console.log(this);
+					}
+				});
 			}
-		});
+		}
 	},	
 	
 	//go to website button
@@ -54,9 +69,9 @@ Ext.define('grants.controller.Detail', {
 	},
     
 	//back button on detail panel
-	onDetailBack: function(){	
-		//set last viewied item
-		grants.lastRecord = grants.currentRecord;
+	onDetailBack: function(){
+		//swtich back to first panel
+		this.getDetailPanel().setActiveItem(0);
 		//show main panel
 		Ext.Viewport.animateActiveItem(this.getMain(), {
 			type: 'slide',

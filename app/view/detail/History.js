@@ -4,6 +4,7 @@ Ext.define("grants.view.detail.History", {
 	
 	config: {
 		title: 'History',
+		iconCls: 'look',
 		store: 'History',
 		disableSelection: true,
 		itemTpl: '{displayName}'

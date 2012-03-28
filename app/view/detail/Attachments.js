@@ -3,7 +3,8 @@ Ext.define("grants.view.detail.Attachments", {
 	xtype: 'attachments',
 	
 	config: {
-		title: 'Attachments',
+		title: 'Docs',
+		iconCls: 'folder',
 		store: 'Attachments',
 		disableSelection: true,
 		onItemDisclosure: true,	

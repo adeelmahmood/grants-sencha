@@ -18,5 +18,7 @@
 
 // Your custom code goes here...
 @include pictos-iconmask('user_list');
+@include pictos-iconmask('folder');
+@include pictos-iconmask('look');
 
 @include sencha-button-ui('light', #f3f3f3, 'glossy');

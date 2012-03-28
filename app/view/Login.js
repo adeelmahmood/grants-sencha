@@ -2,6 +2,11 @@ Ext.define("grants.view.Login", {
 	extend: 'Ext.form.FormPanel',
 	xtype: 'login',
 	
+	requires: [
+		'Ext.TitleBar',
+		'Ext.form.FieldSet'
+	],
+	
 	config: {
 		items: [
 			{

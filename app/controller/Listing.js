@@ -14,9 +14,12 @@ Ext.define('grants.controller.Listing', {
 			detailToolbar: 'detailpanel titlebar'
         },
         control: {
+			'#sortBy': {
+                toggle: 'onSortToggle'
+            },
 			searchButton: {
 				tap: 'onSearchButton'
-			},
+			},			
 			searchField: {
 				action: 'onSearch',
 				change: 'onSearch',
@@ -31,6 +34,10 @@ Ext.define('grants.controller.Listing', {
         }
     },
     
+	onSortToggle: function(segBtn, btn){
+		console.log('sort toggle');
+	},
+	
 	//scroll to top to focus on search field
 	onSearchButton: function(searchButton){
 		var list = this.getListingPanel().getActiveItem();

@@ -1,6 +1,10 @@
 Ext.define('grants.store.FPs', {
 	extend: 'Ext.data.Store',
 	
+	requires: [
+		'grants.model.FP'
+	],
+	
 	config: {
 		//autoLoad: true,		
 		model: 'grants.model.FP',
@@ -24,8 +28,9 @@ Ext.define('grants.store.FPs', {
 			},
 			reader: {
 				type: 'json',
-				rootProperty: 'response.docs'
+				rootProperty: 'response.docs',
+				totalProperty: 'response.numFound'
 			}
 		}
-	}	
+	}
 });

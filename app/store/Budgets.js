@@ -12,7 +12,6 @@ Ext.define('grants.store.Budgets', {
 			extraParams: {
 				type: 'ent',
 				entity: '_FundingProposal',
-				id: '',
 				path: 'customAttributes._attribute7'
 			},
 			reader: {
